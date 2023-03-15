@@ -26,7 +26,7 @@ class _DevEnvironment implements Environment {
   Flavor get flavor => Flavor.development;
 
   @override
-  String get baseUrl => 'https://reqres.in/';
+  String get baseUrl => 'https://reqres.in';
 }
 
 class _StgEnvironment implements Environment {
@@ -34,7 +34,7 @@ class _StgEnvironment implements Environment {
   Flavor get flavor => Flavor.staging;
 
   @override
-  String get baseUrl => 'https://reqres.in/';
+  String get baseUrl => 'https://reqres.in';
 }
 
 class _PrdEnvironment implements Environment {
@@ -42,5 +42,5 @@ class _PrdEnvironment implements Environment {
   Flavor get flavor => Flavor.production;
 
   @override
-  String get baseUrl => 'https://reqres.in/';
+  String get baseUrl => 'https://reqres.in';
 }

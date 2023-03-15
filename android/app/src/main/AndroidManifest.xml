@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.verygoodcore.yaho_coding_challenge">
+    package="com.dxt.yaho_coding_challenge">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="yaho_coding_challenge"
+        android:label="${appName}"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
