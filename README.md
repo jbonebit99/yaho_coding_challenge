@@ -49,6 +49,12 @@ $ flutter test test/page/root_test.dart
 
 This project relies on [flutter_localizations][flutter_localizations_link] and follows the [official internationalization guide for Flutter][internationalization_link].
 
+## Screenshots
+
+|GridView|ListView|
+| :-------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
+| <img alt="GridView" src="https://raw.githubusercontent.com/jbonebit99/yaho_coding_challenge/main/screenshots/grid.png"/> | <img alt="ListView" src="https://raw.githubusercontent.com/jbonebit99/yaho_coding_challenge/main/screenshots/list.png"/> |
+
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
 [internationalization_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
